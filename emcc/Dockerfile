@@ -5,7 +5,7 @@ RUN dnf -y update
 RUN dnf -y install autoconf automake make cmake bzip2\
   gcc-c++ libstdc++-static.x86_64
 
-RUN dnf -y install libtool bison xz which
+RUN dnf -y install libtool bison flex xz which gawk
 
 
 ## Emscripten
